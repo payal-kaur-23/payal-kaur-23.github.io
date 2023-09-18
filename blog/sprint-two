@@ -1,0 +1,21 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Sprint Two</title>
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <h1>What is the difference between Margin, Border, and Padding?</h1>
+    
+    
+    <p>Border is the strip that goes around your div/element of the content. Padding is the space between the content and the border. Margin is the space outside the border.
+        Content + Padding + Border + Margin = Total Space.Padding - Clears an area around the content. The padding is transparent
+        Border - A border that goes around the padding and content
+        Margin - Clears an area outside the border. The margin is transparent</p>
+    
+    <!-- this is a comment. -->
+  
+  </body>
+</html>
