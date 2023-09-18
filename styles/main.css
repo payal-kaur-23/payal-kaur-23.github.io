@@ -4,13 +4,6 @@
     --header-font: 'Montserrat', serif;
     --header-weight: 700;
     --default-border-style: solid;
-    --default-border-color: #000;
-    --default-border-width: 2px;
-    --default-color: #000;
-    --lavender: lavender;
-    --pink: #ffb2dc;
-    --teal: teal;
-    --white: --white;
     --content-width-lg: 1224px;
   }
   
@@ -47,16 +40,14 @@
     padding-inline-end: 4px;
   }
 
-header {
-    background: lavender;
-    color: teal;
-    margin: 30%;
-    padding: 15px 15px 0 15px;
-}
 
 header h1 {
     margin: 0;
     display: inline-block;
+    background: lavender;
+    color: teal;
+    margin: 30%;
+    padding: 15px 15px 0 15px;
 
 }
 
@@ -72,10 +63,20 @@ nav ul li {
     color: grey;
     display: inline-block;
     list-style-type: none;
-    padding: 5px 15px;
+    padding: 0px 15px;
 
 }
 
 nav ul lia a {
     color: grey;
 }
+
+@media screen and (max-width: 720px) 
+  p {
+    line-height: 24px;
+    margin-top: 16px;
+  }
+
+  .h1-default {
+    font-size: 40px;
+  }
