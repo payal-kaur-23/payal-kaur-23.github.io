@@ -1,12 +1,13 @@
 body: {
     margin: 0;
+    
 }
 
 
 header {
     background: lavender;
     color: teal;
-    margin: 0;
+    margin: 30%;
     padding: 15px 15px 0 15px;
 }
 
@@ -28,7 +29,7 @@ nav ul li {
     color: grey;
     display: inline-block;
     list-style-type: none;
-    padding: 5px 15px;
+    padding: 15px 20px;
 
 }
 
