@@ -44,9 +44,9 @@
 header h1 {
     margin: 0;
     display: inline-block;
-    background: lavender;
+    background: grey;
     color: teal;
-    margin: 30%;
+    margin: 15%;
     padding: 15px 15px 0 15px;
 
 }
@@ -63,7 +63,7 @@ nav ul li {
     color: grey;
     display: inline-block;
     list-style-type: none;
-    padding: 0px 15px;
+    padding: 0px 15px 0px 15px;
 
 }
 
