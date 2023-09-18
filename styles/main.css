@@ -80,7 +80,7 @@ nav ul {
 
 nav ul li {
     background: black;
-    color: grey;
+    color: teal;
     display: inline-block;
     list-style-type: none;
     padding: 0px 15px 0px 15px;
@@ -88,12 +88,12 @@ nav ul li {
 }
 
 nav ul lia a {
-    color: grey;
+    color: teal;
 }
 
 p {
-  background: teal;
-  color: black;
+  background: black;
+  color: teal;
   padding: 0px 15px 0px 15px;
 }
 
