@@ -101,6 +101,11 @@ nav ul lia a {
     color: grey;
 }
 
+p {
+  background: teal;
+  color: black;
+}
+
 @media screen and (max-width: 720px) 
   p {
     line-height: 24px;
