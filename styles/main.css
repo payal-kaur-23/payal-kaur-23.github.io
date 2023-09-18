@@ -1,8 +1,51 @@
-body: {
-    background: lavender;
-    
-}
-
+:root {
+    --nav-square-lg: 96px;
+    --nav-square-sm: 64px;
+    --header-font: 'Montserrat', serif;
+    --header-weight: 700;
+    --default-border-style: solid;
+    --default-border-color: #000;
+    --default-border-width: 2px;
+    --default-color: #000;
+    --lavender: lavender;
+    --pink: #ffb2dc;
+    --teal: teal;
+    --white: --white;
+    --content-width-lg: 1224px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--lavender);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: var(--default-color);
+    font-family: 'Lora', serif;
+    font-size: 18px;
+  }
+  
+  p {
+    line-height: 32px;
+    margin-top: 24px;
+  }
+  
+  code {
+    color: var(--teal);
+    background-color: teal;
+    padding-inline-start: 4px;
+    padding-inline-end: 4px;
+  }
 
 header {
     background: lavender;
