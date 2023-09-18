@@ -1,0 +1,33 @@
+body: {
+    margin: 0;
+}
+
+
+header {
+    background: lavender;
+    color: teal;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+
+}
+
+nav ul {
+    margin: 0;
+    
+}
+
+nav ul li {
+    background: white;
+    color: grey;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+
+}
+
+nav ul lia a {
+    color: grey;
+}
