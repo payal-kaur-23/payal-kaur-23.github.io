@@ -70,21 +70,6 @@
   }
 </style>
 
-  body {
-    background-color: lavender;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    color: var(--default-color);
-    font-family: 'Lora', serif;
-    font-size: 18px;
-  }
-  
-
-  body {
-    margin: 0;
-    padding: 0;
-}
 .hero {
     position: relative;
     width: 100vw;
@@ -150,78 +135,8 @@
   border: 1px solid #db7598;
 }
   
-  code {
-    color: var(--teal);
-    background-color: lightblue;
-    padding-inline-start: 4px;
-    padding-inline-end: 4px;
-  }
 
 
-header h1 {
-    margin: 0;
-    display: inline-block;
-    background: lavender;
-    color: lightskyblue;
-    margin: 15%;
-    padding: 15px 15px 0 15px;
 
-}
-
-.header {		
-  top:0;
-  z-index:0;
-  width:100%;
-  z-index:999;
-  position:absolute;
-  padding-top:30px;
-  z-index: 999;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  transition: all 0.8s;
-  -webkit-transform: translateY(0%);
-  -moz-transform: translateY(0%);
-  transform: translateY(0%);
-}
-
-.header.affix {
-  background:#000;
-  width:100%;
-  top:0;
-  right:0;
-  padding:0;
-  margin:0;
-  position: fixed;
-  z-index: 9999;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  transition: all 0.8s;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0px 0px 0px 15px;
-    display: inline;
-    
-}
-
-nav ul li {
-    background: black;
-    color: lightskyblue;
-    display: inline-block;
-    list-style-type: none;
-    padding: 0px 15px 0px 15px;
-
-}
-
-nav ul lia a {
-    color: lightskyblue;
-}
-
-p {
-  background: black;
-  color: lightskyblue;
-  padding: 0px 15px 0px 15px;
-}
 
 
