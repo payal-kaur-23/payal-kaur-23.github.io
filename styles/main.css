@@ -1,13 +1,3 @@
-:root {
-    --nav-square-lg: 96px;
-    --nav-square-sm: 64px;
-    --header-font: 'Montserrat', serif;
-    --header-weight: 700;
-    --default-border-style: solid;
-    --content-width-lg: 1224px;
-  }
-  
-  
   html {
     scroll-behavior: smooth;
   }
@@ -94,7 +84,7 @@
   
   code {
     color: var(--teal);
-    background-color: teal;
+    background-color: lightblue;
     padding-inline-start: 4px;
     padding-inline-end: 4px;
   }
@@ -104,7 +94,7 @@ header h1 {
     margin: 0;
     display: inline-block;
     background: lavender;
-    color: teal;
+    color: lightskyblue;
     margin: 15%;
     padding: 15px 15px 0 15px;
 
@@ -149,7 +139,7 @@ nav ul {
 
 nav ul li {
     background: black;
-    color: teal;
+    color: lightskyblue;
     display: inline-block;
     list-style-type: none;
     padding: 0px 15px 0px 15px;
@@ -157,12 +147,12 @@ nav ul li {
 }
 
 nav ul lia a {
-    color: teal;
+    color: lightskyblue;
 }
 
 p {
   background: black;
-  color: teal;
+  color: lightskyblue;
   padding: 0px 15px 0px 15px;
 }
 
