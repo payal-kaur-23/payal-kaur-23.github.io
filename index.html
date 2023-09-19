@@ -12,30 +12,59 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta name="viewport" content=
-    "width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <section class="hero">
-
-        <div class="hero-content">
-        
-           <h1 class="hero-title">
-                Payal's Dev blog
-           </h1>
-             
-           <h2 class="hero-subtitle">
-                Welcome to my blog
-           </h2>
-             
-           <button type="button" class="hero-button" onclick="location.href='payal-kaur-23.github.io.html'">
-                Click to see progress &raquo;
-           </button>
-           <meta charset="UTF-8">
-           <link rel="stylesheet" type="text/css" href="../styles/main.css">
-        
-        </div>
+        <title>Payal's Dev Blog</title>
+         
+        <style>
+                 
+            /* blurring the image */
+            .gfg {
+                filter: blur(5px);
+                width: 100%;
+            }
+                 
+            /* designing title and tag line */
+            .logo {
+                text-align:center;
+                position: absolute;
+                font-size: 18px;
+                top: 50px;
+                left: 27%;
+                color: white;
+            }
+            h1, p {
+                border: 4px solid white;
+                padding: 10px 50px;
+                position: relative;
+                border-radius: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1:hover {
+                background: -webkit-linear-gradient( lavenderblush, teal);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+                 
+            /* Designing button */
+            .logo button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 10px 25px;
+                color: black;
+                background-color: #ddd;
+                text-align: center;
+                cursor: pointer
+            }
+            .logo button:hover {
+                background-color: lavenderblush;
+                color: white;
+            }
+        </style>
+     
     
-    </section>
+   
 <title>Dark Mode</title>
  
 <style>
@@ -65,6 +94,21 @@
 
 <body>
   <a id="top"></a>
+
+  <body>
+    <div class="container">
+             
+        <!-- background image -->
+        <img class="gfg"
+             src="https://images.app.goo.gl/nmX8SPx8PGGm1sig9">
+ 
+        <!-- title and tag line with button -->
+        <div class="logo">
+            <h1>Welcome to my blog</h1>
+            <p>This blog has my progress and journey with Dev Academy</p>
+            <button>click here to see pregress</button>
+        </div>
+    </div>
 
 <header>
 <nav>
