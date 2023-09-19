@@ -358,6 +358,72 @@
   padding: 32px 0px;
 }
 
+.hero-homepage {
+  width: 100%;
+  height: fit-content;
+  display: block;
+}
+
+.hero-homepage-title {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--pink);
+  border-bottom: var(--default-border-width) var(--default-border-color)
+    var(--default-border-style);
+}
+
+.hero-homepage-subtitle {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  border-bottom: var(--default-border-width) var(--default-border-color)
+    var(--default-border-style);
+}
+
+.hero-homepage-subtitle .h1-subtitle {
+  padding: 32px 0px;
+}
+
+.hero-homepage-subtitle a:link {
+  color: var(--default-color);
+  text-decoration: underline;
+}
+
+.hero-homepage-subtitle a:visited {
+  color: var(--default-color);
+  text-decoration: underline;
+}
+
+.hero-homepage-subtitle a:hover {
+  color: var(--hot-pink);
+  text-decoration: underline;
+}
+
+.hero-blog-post {
+  width: 100%;
+  height: fit-content;
+  display: block;
+}
+
+.hero-blog-title {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  background-color: var(--pink);
+  border-bottom: var(--default-border-width) var(--default-border-color)
+    var(--default-border-style);
+}
+
+.hero-title-stack {
+  flex-direction: column;
+  padding: 32px 0px;
+
+
 .blog-posts {
   width: 100%;
   flex: 1;
