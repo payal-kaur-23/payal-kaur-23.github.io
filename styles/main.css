@@ -2,73 +2,8 @@
     scroll-behavior: smooth;
   }
   
-  <style>
-  * {
-      box-sizing: border-box;
-  }
 
-  /* CSS property for header section */
-  .header {
-      background-color: lavender;
-      padding: 15px;
-      text-align: center;
-  }
 
-  /* CSS property for navigation menu */
-  .nav_menu {
-      overflow: hidden;
-      background-color: #333;
-  }
-
-  .nav_menu a {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-
-  .nav_menu a:hover {
-      background-color: white;
-      color: lavender;
-  }
-
-  /* CSS property for content section */
-  .columnA,
-  .columnB,
-  .columnC {
-      float: left;
-      width: 31%;
-      padding: 15px;
-      text-align: justify;
-  }
-
-  h2 {
-      color: lavender;
-      text-align: center;
-  }
-
-  /* Media query to set website layout
-      according to screen size */
-  @media screen and (max-width:600px) {
-
-      .columnA,
-      .columnB,
-      .columnC {
-          width: 50%;
-      }
-  }
-
-  @media screen and (max-width:400px) {
-
-      .columnA,
-      .columnB,
-      .columnC {
-          width: 100%;
-      }
-  }
-</style>
 
 .hero {
     position: relative;
@@ -133,6 +68,275 @@
 .hero-button:hover {
   background-color: #cb376a;
   border: 1px solid #db7598;
+
+  :root {
+    --nav-square-lg: 96px;
+    --nav-square-sm: 64px;
+    --header-font: 'Montserrat', serif;
+    --header-weight: 700;
+    --default-border-style: solid;
+    --default-border-color: #000;
+    --default-border-width: 2px;
+    --default-color: #000;
+    --skyblue: #ffee74;
+    --pink: #ffb2dc;
+    --lavender: #fc0089;
+    --white: #fff;
+    --purple: #d1c2ff;
+    --dark-purple: #2c1a53;
+    --content-width-lg: 1224px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--skyblue);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: var(--default-color);
+    font-family: 'Lora', serif;
+    font-size: 18px;
+  }
+  
+  p {
+    line-height: 32px;
+    margin-top: 24px;
+  }
+  
+  code {
+    color: var(--lavender);
+    background-color: rgb(235, 235, 225);
+    padding-inline-start: 4px;
+    padding-inline-end: 4px;
+  }
+  
+  ul,
+  ol {
+    padding-left: 32px;
+  }
+  
+  li {
+    padding-left: 12px;
+    margin-top: 16px;
+  }
+  
+  .content-width {
+    height: fit-content;
+    width: var(--content-width-lg);
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .grid-background {
+    background-image: url('../images/grid-tile.svg');
+    background-size: cover;
+  }
+  
+  .h1-default {
+    font-family: var(--header-font);
+    font-weight: var(--header-weight);
+    font-size: 64px;
+  }
+  
+  .h2-default {
+    font-family: var(--header-font);
+    font-weight: var(--header-weight);
+    font-size: 40px;
+  }
+  
+  .h1-subheading {
+    font-family: var(--header-font);
+    font-weight: var(--header-weight);
+    font-size: 20px;
+    margin-block-end: 10px;
+  }
+  
+  .h1-subheading a:link {
+    color: var(--default-color);
+    text-decoration: underline;
+  }
+  
+  .h1-subheading a:visited {
+    color: var(--default-color);
+    text-decoration: underline;
+  }
+  
+  .h1-subheading a:hover {
+    color: var(--hot-pink);
+    text-decoration: underline;
+  }
+  
+  .h2-blog-multiple {
+    font-family: var(--header-font);
+    font-weight: var(--header-weight);
+    font-size: 28px;
+    margin-top: 36px;
+  }
+  
+  .h2-subheading {
+    font-family: var(--header-font);
+    font-weight: var(--header-weight);
+    font-size: 20px;
+    margin-block-end: 10px;
+  }
+  
+  .h1-homepage {
+    font-family: var(--header-font);
+    font-weight: var(--header-weight);
+    font-size: 96px;
+    line-height: 96px;
+    padding: 40px 0px;
+    color: var(--white);
+    text-shadow: -1px -1px var(--dark-purple), -2px -2px var(--dark-purple),
+      0px 2px var(--dark-purple), 0px -2px var(--dark-purple),
+      2px 0px var(--dark-purple), -2px 0px var(--dark-purple),
+      -1px 1px var(--dark-purple), -2px 2px var(--dark-purple),
+      1px -1px var(--dark-purple), 2px -2px var(--dark-purple),
+      1px 1px var(--dark-purple), 2px 2px var(--dark-purple),
+      3px 3px var(--dark-purple), 4px 4px var(--dark-purple),
+      5px 5px var(--dark-purple), 6px 6px var(--dark-purple),
+      7px 7px var(--dark-purple), 8px 8px var(--dark-purple),
+      9px 9px var(--dark-purple), 10px 10px var(--dark-purple),
+      11px 11px var(--dark-purple), 12px 12px var(--dark-purple),
+      13px 13px var(--dark-purple), 14px 14px var(--dark-purple),
+      15px 15px var(--dark-purple), 16px 16px var(--dark-purple),
+      17px 17px var(--dark-purple), 18px 18px var(--dark-purple),
+      19px 19px var(--dark-purple), 20px 20px var(--dark-purple),
+      21px 21px var(--dark-purple), 22px 22px var(--dark-purple),
+      23px 23px var(--dark-purple), 24px 24px var(--dark-purple),
+      25px 25px var(--dark-purple), 26px 26px var(--dark-purple),
+      27px 27px var(--dark-purple), 28px 28px var(--dark-purple),
+      29px 29px var(--dark-purple), 30px 30px var(--dark-purple),
+      31px 31px var(--dark-purple), 32px 32px var(--dark-purple),
+      33px 33px var(--dark-purple), 34px 34px var(--dark-purple),
+      35px 35px var(--dark-purple), 36px 36px var(--dark-purple),
+      37px 37px var(--dark-purple), 38px 38px var(--dark-purple),
+      39px 39px var(--dark-purple), 40px 40px var(--dark-purple),
+      41px 41px var(--dark-purple), 42px 42px var(--dark-purple),
+      43px 43px var(--dark-purple), 44px 44px var(--dark-purple),
+      45px 45px var(--dark-purple), 46px 46px var(--dark-purple),
+      47px 47px var(--dark-purple), 48px 48px var(--dark-purple),
+      49px 49px var(--dark-purple), 50px 50px var(--dark-purple),
+      51px 51px var(--dark-purple), 52px 52px var(--dark-purple),
+      53px 53px var(--dark-purple), 54px 54px var(--dark-purple),
+      55px 55px var(--dark-purple), 56px 56px var(--dark-purple),
+      57px 57px var(--dark-purple), 58px 58px var(--dark-purple),
+      59px 59px var(--dark-purple), 60px 60px var(--dark-purple),
+      61px 61px var(--dark-purple), 62px 62px var(--dark-purple),
+      63px 63px var(--dark-purple), 64px 64px var(--dark-purple),
+      65px 65px var(--dark-purple), 66px 66px var(--dark-purple),
+      67px 67px var(--dark-purple), 68px 68px var(--dark-purple),
+      69px 69px var(--dark-purple), 70px 70px var(--dark-purple),
+      71px 71px var(--dark-purple), 72px 72px var(--dark-purple),
+      73px 73px var(--dark-purple), 74px 74px var(--dark-purple),
+      75px 75px var(--dark-purple), 76px 76px var(--dark-purple),
+      77px 77px var(--dark-purple), 78px 78px var(--dark-purple),
+      79px 79px var(--dark-purple), 80px 80px var(--dark-purple),
+      81px 81px var(--dark-purple), 82px 82px var(--dark-purple),
+      83px 83px var(--dark-purple), 84px 84px var(--dark-purple),
+      85px 85px var(--dark-purple), 86px 86px var(--dark-purple),
+      87px 87px var(--dark-purple), 88px 88px var(--dark-purple),
+      89px 89px var(--dark-purple), 90px 90px var(--dark-purple),
+      91px 91px var(--dark-purple), 92px 92px var(--dark-purple),
+      93px 93px var(--dark-purple), 94px 94px var(--dark-purple),
+      95px 95px var(--dark-purple), 96px 96px var(--dark-purple),
+      97px 97px var(--dark-purple), 98px 98px var(--dark-purple),
+      99px 99px var(--dark-purple), 100px 100px var(--dark-purple),
+      101px 101px var(--dark-purple), 102px 102px var(--dark-purple),
+      103px 103px var(--dark-purple), 104px 104px var(--dark-purple),
+      105px 105px var(--dark-purple), 106px 106px var(--dark-purple),
+      107px 107px var(--dark-purple), 108px 108px var(--dark-purple),
+      109px 109px var(--dark-purple), 110px 110px var(--dark-purple),
+      111px 111px var(--dark-purple), 112px 112px var(--dark-purple),
+      113px 113px var(--dark-purple), 114px 114px var(--dark-purple),
+      115px 115px var(--dark-purple), 116px 116px var(--dark-purple),
+      117px 117px var(--dark-purple), 118px 118px var(--dark-purple),
+      119px 119px var(--dark-purple), 120px 120px var(--dark-purple),
+      121px 121px var(--dark-purple), 122px 122px var(--dark-purple),
+      123px 123px var(--dark-purple), 124px 124px var(--dark-purple),
+      125px 125px var(--dark-purple), 126px 126px var(--dark-purple),
+      127px 127px var(--dark-purple), 128px 128px var(--dark-purple),
+      129px 129px var(--dark-purple), 130px 130px var(--dark-purple),
+      131px 131px var(--dark-purple), 132px 132px var(--dark-purple),
+      133px 133px var(--dark-purple), 134px 134px var(--dark-purple),
+      135px 135px var(--dark-purple), 136px 136px var(--dark-purple),
+      137px 137px var(--dark-purple), 138px 138px var(--dark-purple),
+      139px 139px var(--dark-purple), 140px 140px var(--dark-purple),
+      141px 141px var(--dark-purple), 142px 142px var(--dark-purple),
+      143px 143px var(--dark-purple), 144px 144px var(--dark-purple),
+      145px 145px var(--dark-purple), 146px 146px var(--dark-purple),
+      147px 147px var(--dark-purple), 148px 148px var(--dark-purple),
+      149px 149px var(--dark-purple), 150px 150px var(--dark-purple),
+      151px 151px var(--dark-purple), 152px 152px var(--dark-purple),
+      153px 153px var(--dark-purple), 154px 154px var(--dark-purple),
+      155px 155px var(--dark-purple), 156px 156px var(--dark-purple),
+      157px 157px var(--dark-purple), 158px 158px var(--dark-purple),
+      159px 159px var(--dark-purple), 160px 160px var(--dark-purple);
+  }
+  
+  .h1-subtitle {
+    font-size: 32px;
+  }
+  
+  .h1-subtitle:link {
+    color: var(--lavender);
+    text-decoration: underline;
+  }
+  
+  .h1-subtitle:visited {
+    color: var(--lavender);
+    text-decoration: underline;
+  }
+  
+  nav {
+    width: 100%;
+    height: var(--nav-square-lg);
+    flex: none;
+    border-bottom: var(--default-border-width) var(--default-border-color)
+      var(--default-border-style);
+  }
+  
+  .header {
+    width: var(--content-width-lg);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    flex-grow: 1;
+    font-family: var(--header-font);
+    font-weight: var(--header-weight);
+    font-size: 32px;
+  }
+  
+  .logo a {
+    color: var(--default-color);
+  }
+  
+  .logo a:visited {
+    color: var(--default-color);
+  }
+  
+  .socials {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    border-right: var(--default-border-width) var(--default-border-color)
+      var(--default-border-style);
+  }
 }
 .hero-blog-post {
   width: 100%;
