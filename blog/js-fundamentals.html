@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stories and Legends</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <meta name="viewport" content=
+    "width=device-width, initial-scale=1.0">
+<title>Dark Mode</title>
+ 
+<style>
+    body{
+    padding:0% 3% 10% 3%;
+    text-align:center;
+    }
+    h1{
+    color: #32a852;
+    margin-top:30px;
+    }
+ 
+    button{
+        cursor: pointer;
+        border: 1px solid #555;
+        text-align: center;
+        padding: 5px;
+        margin-left: 8px;
+    }
+    .dark{
+        background-color: #222;
+        color: #e6e6e6;
+    }
+</style>
+  </head>
+  
+  <body>
+    <h1>JavaScript and the DOM</h1>
+   
+    <h2>What's an analogy for the relationship between JavaScript, HTML & CSS?</h2>
+    
+    <p>HTML resembles a story's bullet points; it provides a basic overview from beginning to end. The environment and growth of characters in CSS are what give the novel its distinct setting. The finished novel is then created by adding JavaScript to these two, drawing the reader into the plot as it logically develops in front of their eyes. 
+    </p>
+
+    <h2>What are loops and control flows?</h2>
+    
+    <p>Step-by-step procedures frequently exhibit "loops" and "control flows". Imagine a house cleaning how-to manual to help clarify each of them. Vacuuming the hallway, living room, bedroom, etc., until all rooms have been cleaned, would be an example of a "loop" step (or steps) that repeated itself until finished. If you have a bath, take these cleaning steps; if you have a shower, take these cleaning steps; or omit these steps if they don't apply, would be a "control flow" step (or steps).
+    </p>
+
+    <h2>What is the DOM and how would someone interact with it?</h2>
+    
+    <p>The Document Object Model, or DOM for short, collects all of the webpage's components and uses a hierarchical, tree-like structure to express how they relate to one another. It is possible to target particular items by creating a "map" of the entire page by using this method to identify each element. The DOM's structure may be used to target, view, and/or alter these elements with JavaScript, which is one approach to communicate with it.
+    </p>
+
+    <h2>What's the difference between accessing data from arrays verses objects?</h2>
+    
+    <p>Data may be retrieved by referring to the data's place in the array since an array is a "ordered collection". An object, on the other hand, is unordered, therefore the data is instead requested by referring to the object's attribute.
+    </p>
+
+    <h2>What are functions and why are they helpful?What's the difference between accessing data from arrays verses objects?</h2>
+    
+    <p>An in-code job can be saved as a function, which can then be called to accomplish the work. This is advantageous since it eliminates the need to continually write code by allowing the function to be called instead.
+    </p>
+    
+    <!-- this is a comment. -->
+    <h3>Light and Dark Mode</h3>
+    <button onclick="myFunction()">Switch mode</button>
+     
+    <script>
+        function myFunction() {
+            let element = document.body;
+            element.classList.toggle("dark");
+        }
+    </script>
+  
+  </body>
+</html>
