@@ -51,6 +51,7 @@ section {
 h2 {
   font-size: 1.5rem;
   color: #24292e;
+  padding: 10px; 
 }
 
 p {
