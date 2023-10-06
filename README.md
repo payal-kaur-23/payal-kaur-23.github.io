@@ -1,7 +1,6 @@
 # payal-kaur-23.github.io
 <html>
   <head>
-    <title>My blog</title>
   <body>
     <h1>Kia ora Taiao! (Hello World!)</h1> 
     <p> This is the beginning of my website home page.</p>
