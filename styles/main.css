@@ -1,8 +1,11 @@
 body {
+  padding: 0% 3% 10% 3%;
+  text-align: center;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+  background-image: linear-gradient(to bottom, yellow, yellowgreen);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 
 header {
