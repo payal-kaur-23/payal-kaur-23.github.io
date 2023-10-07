@@ -9,33 +9,68 @@
 <title>Dark Mode</title>
  
 <style>
-    body{
-    padding:0% 3% 10% 3%;
-    text-align:center;
-    }
-    h1{
-    color: #32a852;
-    margin-top:30px;
-    }
- 
-    button{
-        cursor: pointer;
-        border: 1px solid #555;
-        text-align: center;
-        padding: 5px;
-        margin-left: 8px;
-    }
-    .dark{
-        background-color: #222;
-        color: #e6e6e6;
-    }
+  body {
+      padding: 0% 3% 10% 3%;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+  }
+
+  h1 {
+      color: #32a852;
+      margin-top: 30px;
+      font-size: 2.5rem;
+  }
+
+  .content-block {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: left;
+  }
+
+  h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #32a852;
+  }
+
+  p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+  }
+
+  button {
+      cursor: pointer;
+      border: none;
+      background-color: #32a852;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      margin: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+  }
+
+  button:hover {
+      background-color: #218c5e;
+  }
+
+  .dark {
+      background-color: #222;
+      color: #e6e6e6;
+  }
 </style>
   </head>
   
   <body>
     <h1>Problem Solving</h1>
 
-
+    <div class="content-block">
     <h2> Describe a time when I was blocked on a simple problem</h2>
     
     <p>
@@ -44,7 +79,9 @@
     <p>
         These tiny victories served as encouragement to complete the remainder of each workout. Therefore, the key lesson I learned was that when I feel stuck, it's generally a good idea to break the issue down further and focus on the tiny victories.
     </p>
+    </div>
 
+    <div class="content-block">
     <table>
         <tr>
           <th>Pseudocode</th>
@@ -83,20 +120,24 @@
           <td>I'd like to prioritize this more, perhaps by finishing the task early so that I have more time to reflect. I don't reflect as much as I should since sometimes, after spending a lot of time on something, I simply want to go on.</td>
         </tr>
       </table>
+    </div>
 
-      <h2>Describe a time when I elegantly solved a problem</h2>
+    <div class="content-block"></div>
+     <h2>Describe a time when I elegantly solved a problem</h2>
     
       <p>
       I was having issues with the activity Inflate-the-unicorn. There was a bug ikn my code so i checked with my coach and rewrote the whole code so the bug could be fixed
       </p>
+    </div>
 
-
+    <div class="content-block">
       <h2>Reflect on a time when I was reluctant to ask for help
     </h2>
     
       <p>
        It would be the same issue for Inflate-the-unicorn. I reaally wanted to fix the issue myself but at the end it just costed me time. As soon as i asked for help then the issue was clear and was fixable.
     </p>
+    </div>
     <!-- this is a comment. -->
     <h3>Light and Dark Mode</h3>
     <button onclick="myFunction()">Switch mode</button>

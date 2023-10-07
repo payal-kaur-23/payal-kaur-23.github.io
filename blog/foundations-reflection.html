@@ -9,23 +9,58 @@
 <title>Dark Mode</title>
  
 <style>
-    body{
-    padding:0% 3% 10% 3%;
-    text-align:center;
-    }
-    h1{
-    color: #32a852;
-    margin-top:30px;
-    }
- 
-    button{
-        cursor: pointer;
-        border: 1px solid #555;
+    body {
+        padding: 0% 3% 10% 3%;
         text-align: center;
-        padding: 5px;
-        margin-left: 8px;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
     }
-    .dark{
+
+    h1 {
+        color: #32a852;
+        margin-top: 30px;
+        font-size: 2.5rem;
+    }
+
+    .content-block {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        color: #32a852;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    button {
+        cursor: pointer;
+        border: none;
+        background-color: #32a852;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        margin: 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #218c5e;
+    }
+
+    .dark {
         background-color: #222;
         color: #e6e6e6;
     }
@@ -34,7 +69,9 @@
   
   <body>
     <h1>Foundations Reflection</h1>
+
    
+    <div class="content-block"></div>
     <h2>What are three new things you have learnt about yourself and your ego due to the core learning?</h2>
     
     
@@ -45,35 +82,42 @@
     <p>
         I discovered that my ego made me quite reluctant to seek for assistance via chat since I know my query would be displayed for everyone to see. In contrast, I'm delighted to seek for assistance in person.    
     </p>
+</div>
 
 
 
+    <div class="content-block"></div>
     <h2>What are the role of values, empathy, and self-awareness in learning and programming?</h2>
     
     
     <p>
         I believe it is beneficial to be self-aware in order to identify any potential areas of self-blocking. Once you're aware, fixing it is much simpler. Understanding my principles also allows me to become aware of my underlying motivations. Additionally, being empathetic with both oneself and others promotes the development of a safe environment for failure.    <p>
     </p>
+</div>
 
 
-    
+    <div class="content-block">
     <h2>What has surprised you the most about the core learning??</h2>
     
     
     <p>
         What surprised me was that i actually started understand what most of the concepts were quickly. I really though i would not make it past the third week but here i am going onto bootcamp.
     </p>
+    </div>
 
 
 
+    <div class="content-block"></div>
     <h2>What were the most challenging aspects of the core learning?</h2>
     
     
     <p>
         It was difficult for me to discuss the subject of identity and values since I thought it was so confronting.
     </p>
+</div>
 
 
+    <div class="content-block"></div>
     <h2>Why do you think we, a programming school, are spending so much time focusing on core learning in a web development Bootcamp course?
     </h2>
     
@@ -81,14 +125,17 @@
     <p>
     It makes reasonable sense that we think on these and determine how we want to change to raise our chances of success at interviews and at work as personality and motives play a significant role in one's professional life.
     </p>
+</div>
 
 
+    <div class="content-block">
     <h2>Does the time you spent studying core learning here feel like a waste of time? Should you have just used that time to practise programming instead?
     </h2>
      
     <p>
         It didn't feel like too much time was lost because the Core content (as opposed to Tech) was rather simple to complete. And the rewards were worthwhile for me since the Core practice made me aware of how frequently I lapsed into a stuck attitude.    </p>
     <p>
+    </div>
     <!-- this is a comment. -->
     <h3>Light and Dark Mode</h3>
     <button onclick="myFunction()">Switch mode</button>

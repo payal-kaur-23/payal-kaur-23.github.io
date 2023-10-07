@@ -9,56 +9,101 @@
 <title>Dark Mode</title>
  
 <style>
-    body{
-    padding:0% 3% 10% 3%;
-    text-align:center;
-    }
-    h1{
-    color: #32a852;
-    margin-top:30px;
-    }
- 
-    button{
-        cursor: pointer;
-        border: 1px solid #555;
-        text-align: center;
-        padding: 5px;
-        margin-left: 8px;
-    }
-    .dark{
-        background-color: #222;
-        color: #e6e6e6;
-    }
+  body {
+      padding: 0% 3% 10% 3%;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+  }
+
+  h1 {
+      color: #32a852;
+      margin-top: 30px;
+      font-size: 2.5rem;
+  }
+
+  .content-block {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: left;
+  }
+
+  h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #32a852;
+  }
+
+  p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+  }
+
+  button {
+      cursor: pointer;
+      border: none;
+      background-color: #32a852;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      margin: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+  }
+
+  button:hover {
+      background-color: #218c5e;
+  }
+
+  .dark {
+      background-color: #222;
+      color: #e6e6e6;
+  }
 </style>
   </head>
   
   <body>
     <h1>JavaScript and the DOM</h1>
    
+    <div class="content-block"></div>
     <h2>What's an analogy for the relationship between JavaScript, HTML & CSS?</h2>
     
     <p>HTML resembles a story's bullet points; it provides a basic overview from beginning to end. The environment and growth of characters in CSS are what give the novel its distinct setting. The finished novel is then created by adding JavaScript to these two, drawing the reader into the plot as it logically develops in front of their eyes. 
     </p>
+    </div>
 
+    <div class="content-block"></div>
     <h2>What are loops and control flows?</h2>
     
     <p>Step-by-step procedures frequently exhibit "loops" and "control flows". Imagine a house cleaning how-to manual to help clarify each of them. Vacuuming the hallway, living room, bedroom, etc., until all rooms have been cleaned, would be an example of a "loop" step (or steps) that repeated itself until finished. If you have a bath, take these cleaning steps; if you have a shower, take these cleaning steps; or omit these steps if they don't apply, would be a "control flow" step (or steps).
     </p>
+  </div>
 
+   <div class="content-block"></div>
     <h2>What is the DOM and how would someone interact with it?</h2>
     
     <p>The Document Object Model, or DOM for short, collects all of the webpage's components and uses a hierarchical, tree-like structure to express how they relate to one another. It is possible to target particular items by creating a "map" of the entire page by using this method to identify each element. The DOM's structure may be used to target, view, and/or alter these elements with JavaScript, which is one approach to communicate with it.
     </p>
+  </div>
 
+  <div class="content-block"></div>
     <h2>What's the difference between accessing data from arrays verses objects?</h2>
     
     <p>Data may be retrieved by referring to the data's place in the array since an array is a "ordered collection". An object, on the other hand, is unordered, therefore the data is instead requested by referring to the object's attribute.
     </p>
+  </div>
 
+  <div class="content-block"></div>
     <h2>What are functions and why are they helpful?What's the difference between accessing data from arrays verses objects?</h2>
     
     <p>An in-code job can be saved as a function, which can then be called to accomplish the work. This is advantageous since it eliminates the need to continually write code by allowing the function to be called instead.
     </p>
+  </div>
     
     <!-- this is a comment. -->
     <h3>Light and Dark Mode</h3>
